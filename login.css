@@ -1,0 +1,112 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f7f7f7; /* Light background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Container for the login form */
+.login-container {
+  width: 100%;
+  max-width: 450px;
+  background-color: #fff;
+  padding: 2.5rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  text-align: center;
+  border: 1px solid #e1e1e1;
+}
+
+/* Title styling */
+h2 {
+  margin-bottom: 25px;
+  color: #212121; /* Dark gray for better visibility */
+  font-size: 24px;
+}
+
+/* Input group styling */
+.input-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.input-group label {
+  font-weight: bold;
+  font-size: 14px;
+  color: #212121; /* Dark gray for labels */
+}
+
+.input-group input {
+  width: 100%;
+  padding: 12px;
+  margin-top: 6px;
+  border: 1px solid #d6d9e0; /* Light gray */
+  border-radius: 6px;
+  font-size: 16px;
+  background-color: #fff; /* White background for inputs */
+  color: #333; /* Dark text color for better visibility */
+}
+
+.input-group input:focus {
+  border-color: #3C8F7A; /* Teal */
+  outline: none;
+  background-color: #fff;
+}
+
+/* Error message styling */
+.error-message {
+  color: #E74C3C; /* Bright red */
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+/* Submit button styling */
+button {
+  width: 100%;
+  padding: 14px;
+  border: none;
+  background-color: #3C8F7A; /* Teal */
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #2A6E5C; /* Darker teal */
+  transform: scale(1.05);
+}
+
+button:disabled {
+  background-color: #B7D3D1; /* Disabled light teal */
+  cursor: not-allowed;
+}
+
+/* Link to sign up */
+.signup-link {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #4F4F4F; /* Dark gray */
+}
+
+.signup-link a {
+  color: #3C8F7A; /* Teal */
+  text-decoration: none;
+}
+
+.signup-link a:hover {
+  text-decoration: underline;
+  color: #2A6E5C; /* Darker teal on hover */
+}
